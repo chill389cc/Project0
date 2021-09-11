@@ -1,0 +1,89 @@
+nav {
+  width: 100%;
+  text-align: center;
+}
+
+.btn-secondary {
+  background-color: #f2665e;
+}
+.btn-secondary:hover {
+  background-color: darkred;
+}
+
+#navbar {
+  background-color: #f2665e;
+  height: auto;
+}
+#navbar div {
+  width: 100%;
+  padding: 20px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 2px black;
+}
+#navbar div:hover {
+  background-color: red;
+}
+
+#navhead {
+  background-color: pink;
+  height: auto;
+  padding: 10px;
+}
+#navhead h6, #navhead h2 {
+  color: darkred;
+  font-weight: bold;
+}
+#navhead h2 {
+  font-style: italic;
+  text-shadow: 2px 2px 2px #571300;
+}
+
+h5, h1, h6, #navhead h2 {
+  color: darkred;
+}
+
+body {
+  background-color: #c8c8c8;
+  margin: 0;
+  padding: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+table th, table td, th th, th td, td th, td td {
+  padding: 4px;
+}
+table th, th th, td th {
+  color: darkred;
+}
+
+.type {
+  font-weight: bold;
+}
+
+::selection {
+  background: #f2665e;
+}
+
+section {
+  padding: 5%;
+  background-color: #f0f0f0;
+  display: block;
+  max-width: 70%;
+  margin: auto;
+}
+
+@media (min-width: 600px) {
+  section {
+    max-width: 70%;
+  }
+}
+@media (max-width: 599px) {
+  section {
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
+

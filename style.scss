@@ -1,0 +1,80 @@
+$accentColor:#f2665e;
+$headingColor:darkred;
+nav {
+   width: 100%;
+   text-align: center;
+}
+.btn-secondary {
+   background-color: $accentColor;
+   &:hover {
+      background-color: $headingColor;
+   }
+}
+#navbar {
+   background-color: $accentColor;
+   height:auto;
+   div {
+      width:100%;
+      padding: 20px;
+      font-weight: bolder;
+      text-shadow: 1px 1px 2px black;
+      &:hover {
+         background-color:red;
+      }
+   }
+}
+#navhead {
+   background-color: pink;
+   height: auto;
+   padding: 10px;
+   h6 {
+      color:$headingColor;
+      font-weight:bold;
+   }
+   h2 {
+      @extend h6;
+      font-style: italic;
+      text-shadow: 2px 2px 2px #571300;
+   }
+}
+h5, h1, h6 {
+   color:$headingColor;
+}
+body {
+   background-color: rgb(200, 200, 200);
+   margin: 0;
+   padding: 0;
+}
+table, th, td {
+  border: 1px solid black;
+  th, td {
+     padding:4px;
+  }
+  th {
+     color:$headingColor;
+  }
+}
+.type {
+   font-weight:bold;
+}
+::selection {
+   background:$accentColor;
+}
+section {
+   padding: 5%;
+   background-color: rgb(240, 240, 240);
+   display: block;
+   max-width: 70%;
+   margin: auto;
+}
+@media (min-width:600px) {
+   section {
+      max-width: 70%;
+   }
+}
+@media (max-width:599px) {
+   section {
+      max-width: 100%;
+   }
+}
+
